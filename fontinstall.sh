@@ -58,7 +58,7 @@ fi
 
 # Variables and choosing the mirror.
 echo -e "Choosing best mirror to download the files.\n"
-downloadUrls=("https://github.com/OmniTx/Linux/raw/main/banglafonts.tar.gz")
+downloadUrls=("https://raw.githubusercontent.com/OmniTx/Linux/main/banglafonts.tar.gz")
 finalurl="" # it will select lowest latency mirror
 
 # Get arrays of latency and plain urls.
